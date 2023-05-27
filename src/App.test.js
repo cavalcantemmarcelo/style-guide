@@ -8,7 +8,7 @@ test('teste titulo', () => {
 });
 
 
-test('teste titulo 2'), () => {
+test('teste titulo 2', () => {
   render(<App />);
   const testCase = document.querySelector('.App h1');
   expect(testCase).toHaveTextContent(/teste erro/i);
